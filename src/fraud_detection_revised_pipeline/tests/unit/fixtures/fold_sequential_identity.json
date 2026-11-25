@@ -1,0 +1,38 @@
+{
+  "classic-holdout-mean": {
+    "configuration_md5": "4d3ab55657c1b5842493f9332cc439c6",
+    "content_md5": ["712228aa9052e34c810aac4e50a9d295", "bd8293ac339d20486d9820cf3bbf15fb", "7e090bae54bc4428f00805dc4ed9d6a5"],
+    "manifest_lines_md5": "0cde8dbea857ce13baafe7b6c6648006",
+    "report_md5": {"1": "049362eec0bc0da25415e0b9cdb816eb"}
+  },
+  "classic-kfold-drop-rus": {
+    "configuration_md5": "1481f280ff247858c5f5fb29325b9a9a",
+    "content_md5": ["9b6a9b9572b3d76d84e229f49600166a", "3395284d34da70f07c999b90d7292ec3", "2aca7493ffd20fb298e1d7a68effffca", "f2f30d0b499a53c1f53af09480b882c8", "b6e279cd064658e8cce700a9f802d36c", "d9b76a588a8214e931ded2f7b0f2ae90", "c3e69d02bfbaaaf450e13072891d6284", "695343dcb9c94446b0603de28fb0b04a", "d7b1b2d6ea80b99ab0edd4fca9408375", "0de1b90fc41851c551def41c6a3cd69e"],
+    "manifest_lines_md5": "255c60dc0a949aed25f5f582a19ac766",
+    "report_md5": {"1": "c4160b8019157191a65723e73c231b87", "2": "505d8f9edb03c371c33f0f191dc5fb60", "3": "1fd16aad6f04286f632484e13298e9c2", "4": "e88cc8a7f4334bdb88a4111cc3240325", "5": "8bef90667a6861fb4a45bf6668a9dceb"}
+  },
+  "classic-temporal-rus-smote": {
+    "configuration_md5": "9ef95a9fe94a0f5edf6f97e1d3f5fd12",
+    "content_md5": ["c4cb01fd46d57e596f5543abaea7b923", "9a62e174ed4e6ca82e26180b9620fdd9", "34e1a9d4d68688885c6133311c9ba662"],
+    "manifest_lines_md5": "086cd1779ebcde9765fb2f002471cfd7",
+    "report_md5": {"1": "45bfe38d3408dec4e4d89f282ffa7b73"}
+  },
+  "native-holdout": {
+    "configuration_md5": "dc0c723f18601f050be5468412aca6b7",
+    "content_md5": ["deab69ebfe27afe0cc16f493b84d3b71", "500dffb1bd4d9dac44ef7acd934389a5", "d794afac099fc20e9f4bbabbaee957fa"],
+    "manifest_lines_md5": "6fe3a991472c1aca96cc66d7c1cb8734",
+    "report_md5": {"1": "26b59b93c9072414eede717f4533ec23"}
+  },
+  "native-kfold-ablation": {
+    "configuration_md5": "63611a94cd54c332bc121c217fd0b301",
+    "content_md5": ["02e40f33ae988a8fb01d7ae14f7cb118", "81920c0f021d536fef446708b8aa746d", "c335f248d5094642f72c915bd68b0438", "945d2a32b96d508af59ff34e60ab12ab", "d857e7a7b3d1a9c04d003d09dae97648", "5a7be9b4ccfb1cc2cdcb22bec96ce7bb", "8a10a0dbaa72807386e29363efa701e1", "289046703ea383c1e46264268c5ec1e4", "1c9a582e1e4560bb7ad8fe8644135e06", "a9366b4a36591443ee31cdfa54321596"],
+    "manifest_lines_md5": "2586c24c3a304cdefa7b443413b32bb4",
+    "report_md5": {"1": "8a230333e3c319e132423fc72588bd2c", "2": "2c11a319d3f72b37b486270070517486", "3": "1a254c6c7b0b575d342cce1301ac52eb", "4": "2c8657f86f94629fa8cf665bb891e0fd", "5": "4cb4a0b20d2ac6724a19f9a1f2b17d91"}
+  },
+  "paired-kfold-drop": {
+    "configuration_md5": "d9bac96d994911f0aa85eba1da4f3ba1",
+    "content_md5": ["2e3dfa597744a2518d9c93f0ef085205", "cafc29ef7f4ae4c96f52b9fbbb732300", "e1354cf08fbfa3143af5b87327776faf", "602d060d97adc3cc211905555fc1175a", "62e2e0a1e49a1eda3f43dfd64b69955f", "aa23f2bca9ef7fa80510e04bfa1925de", "ede0bd2ef632132a64f14d23ae7ab9f3", "97d8626a830337f8ae1a1bd918661726", "c230902afa96abecd0784516bc7f4155", "8a02331e0681f17835162c4fbc4050d9"],
+    "manifest_lines_md5": "5b0e63beb4650bb6c456380937303441",
+    "report_md5": {"1": "0a759de52b04c14c0b87486c42a1d307", "2": "bfa7d4f26aa3cb646599389a24ab58d0", "3": "172d0b316b27352fb90477056b67005b", "4": "489192bb8bd4672bece2bafbaeda45de", "5": "d6d1ebf733a9526be919b253d20254bc"}
+  }
+}

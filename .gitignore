@@ -1,0 +1,4 @@
+src/datasets/**/*.csv
+__pycache__/
+*.pyc
+.venv/

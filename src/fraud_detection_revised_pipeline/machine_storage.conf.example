@@ -1,0 +1,32 @@
+# Configuracao de armazenamento desta maquina (item G18). Copie para
+# machine_storage.conf, que fica fora do controle de versao, e ajuste.
+#
+# Os dados preparados ficam em dois HDs compartilhados pela rede, montados nas
+# tres maquinas pelo /etc/fstab nos mesmos caminhos:
+#   /mnt/network-black-hd        HD USB do Acer (ext4 no Acer, CIFS nas demais)
+#   /mnt/network-transparent-hd  HD USB do Lenovo E470 (CIFS no Acer e no Dell)
+#
+# MACHINE_PREPARED_DATA_DIRECTORY e o diretorio de onde ESTA maquina le os
+# dados preparados (e onde o Acer prepara). Sem MACHINE_STORAGE_DEVICE_UUID,
+# os scripts nao remontam disco nenhum: quando o acesso cai, esperam de 2 em 2
+# minutos (STORAGE_RETRY_SECONDS) ate o HD voltar e repetem o passo
+# interrompido. Diretorios no sistema de arquivos raiz sao recusados, para que
+# um HD desmontado nao faca a gravacao cair no disco do sistema.
+#
+# Acer Nitro ANV15-41 (prepara tudo; le do HD local dele):
+#   MACHINE_PREPARED_DATA_DIRECTORY=/mnt/network-black-hd/prepared
+#
+# Lenovo ThinkPad E470 (le da copia no HD local dele, feita por
+# stage_machine_configurations.sh no Acer):
+#   MACHINE_PREPARED_DATA_DIRECTORY=/mnt/network-transparent-hd/prepared
+#
+# Dell Latitude 15 (sem HD proprio: le do HD do Acer pela rede):
+#   MACHINE_PREPARED_DATA_DIRECTORY=/mnt/network-black-hd/prepared
+#
+# Quem reproduz o trabalho sem HD, num diretorio local do sistema:
+#   MACHINE_PREPARED_DATA_DIRECTORY=/home/<usuario>/prepared_datasets
+#   MACHINE_STORAGE_ALLOW_ROOT_FILESYSTEM=true
+#
+# Opcional, para um HD que possa ser remontado pelo udisksctl:
+#   MACHINE_STORAGE_DEVICE_UUID=<uuid>
+MACHINE_PREPARED_DATA_DIRECTORY=/mnt/network-black-hd/prepared

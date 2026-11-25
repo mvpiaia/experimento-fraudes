@@ -1,0 +1,18 @@
+scikit-learn
+category-encoders
+imbalanced-learn
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels
+# PyTorch: em Linux x86_64 a roda padrao do PyPI ja traz o runtime CUDA e habilita
+# a GPU sem instalacao adicional; confirme com torch.cuda.is_available().
+# Ambiente sem GPU, ou apenas para rodar os testes, use a variante CPU, bem menor:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.4
+ipykernel
+pytest
+catboost>=1.2
+xgboost>=3.1.0

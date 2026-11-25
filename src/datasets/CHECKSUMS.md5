@@ -1,0 +1,10 @@
+# MD5 dos arquivos originais carregados pelo catalogo (experiment_datasets.py).
+# Conferidos por fraud_detection_revised_pipeline/verify_datasets.py antes de
+# qualquer preparacao (item G18).
+e90efcb83d69faf99fcab8b0255024de  ref-18/creditcard.csv
+793a017f41fbac1dc28176b26dbab30e  ref-19/application_data.csv
+bd1eb5f08a4700414db1742e5cc0f9fa  ref-19/previous_application.csv
+9723893e5492dc0551036edcf596e284  ref-20/fraudTrain.csv
+692357a2589a1a6fcd44f14b3e1f9d2c  ref-20/fraudTest.csv
+58b4038d8715f5e11007b826bef00ce7  ref-22/train_transaction.csv
+8487db5001c8bad139f3318d5d3db416  ref-22/train_identity.csv
